@@ -1,0 +1,43 @@
+# 게임 원본·산출물 (배포하지 않음)
+*.iso
+*.bin
+*.BIN
+*.S9
+*.PSS
+*.m2v
+*.yuv
+*.73
+*.xdelta
+*.p2s
+*.ps2
+work/iso/
+work/san9pk/
+work/gr_tri/
+work/patched/
+work/movie/orig/
+work/movie/ver/
+work/movie/enc/
+work/movie/tmp/
+work/movie/subs/crops/
+work/gfx/dec/
+work/gfx/preview/
+work/font_jp/
+
+# 글꼴·외부 실행 파일·이미지
+*.ttf
+*.otf
+*.exe
+*.dll
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.7z
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+
+# 빌드 산출 보고 (validation/ 에 사본)
+work/trans/build_report.txt

@@ -1,0 +1,53 @@
+{
+ "version": "v1.0",
+ "date": "2026-09-19",
+ "game": "Sangokushi IX with Power-Up Kit (Japan) / SLPM-65673 / PS2",
+ "xdelta_options": "xdelta3 3.0.11, -e -9 -S none -A (no secondary compression, no application header)",
+ "source_iso": {
+  "size": 2496921600,
+  "md5": "96c6875bd547a41d356fdb80f5d279f5",
+  "sha1": "40d4915105bfb333db1435b48d667df02d24bc02",
+  "sha256": "6de9c4bc8e94d651d27eb5708c6d8bc33e893c5dd8f3f9aae3808d73b8b9a157"
+ },
+ "assets": [
+  {
+   "file": "Sangokushi_IX_PK_KO_v1.0.xdelta",
+   "movies": true,
+   "patch": {
+    "size": 711821879,
+    "md5": "9907fa68d26d2f54ddf3e9a5c2582c44",
+    "sha1": "4d98a428e48d1c597cd72f5936e088ae56f2b411",
+    "sha256": "39e15e0ed90622f94f7e5aa59270181905c8f59889fad7ba173c4d1b64e4bd6b"
+   },
+   "output_iso": {
+    "size": 2496921600,
+    "md5": "dc4e683f0bd63f5bde8cd668d12b90c3",
+    "sha1": "4fae4796996211ff48f7624edaa738f93e79fdbc",
+    "sha256": "4f9cb40b175cf23addcbb5e00c62690e4e2030751c279b9534921d90c283843b"
+   }
+  },
+  {
+   "file": "Sangokushi_IX_PK_KO_v1.0_nomovie.xdelta",
+   "movies": false,
+   "patch": {
+    "size": 1720216,
+    "md5": "c551af29aa13a947313358bcb773f5b5",
+    "sha1": "36ec9c027762db971a901460d171f89bee002777",
+    "sha256": "0bc68f786f2b4dc8495cacbae63b6a272ac73affb854e60bf2a0224c7301a76a"
+   },
+   "output_iso": {
+    "size": 2496921600,
+    "md5": "dbe99be7c14789ea6198da58b1813321",
+    "sha1": "2062f4597af047bcbf096fec92bec3f08d5a5588",
+    "sha256": "80aa063d00f46a289c8d709b6c1cd0f91451002c32376c698a38874a17495f51"
+   }
+  }
+ ],
+ "patched_elf": {
+  "size": 3751728,
+  "md5": "55bbd3aaa9245f041867c49ed049cd84",
+  "sha1": "5e09fe20358c298d017abf63a19b32425cb27607",
+  "sha256": "c26102968519f1418842ce7eee5c94fd5aba8c160e0fef2b81b349e3464f9505"
+ },
+ "original_elf_sha256": "174319fa1a31411bc986d5020f9bbe37d40cd4f4f5a3e33f7769b7c20bdfbbfa"
+}

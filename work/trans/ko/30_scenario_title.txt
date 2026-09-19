@@ -1,0 +1,79 @@
+[M 0 stitle]
+JP 黄巾の乱と桃園の誓い
+KO 황건적의 난과 도원결의
+
+[M 2 stitle]
+JP 曹操の挙兵と反董卓連合
+KO 조조의 거병과 반동탁 연합
+
+[M 4 stitle]
+JP 呂布の{U:F04B}州強奪と小覇王出陣
+KO! 여포의 연주 강탈과 소패왕
+
+[M 6 stitle]
+JP 官渡の戦いと中原の覇者
+KO 관도대전과 중원의 패자
+
+[M 8 stitle]
+JP 三顧の礼と赤壁の戦い
+KO 삼고초려와 적벽대전
+
+[M 10 stitle]
+JP 周瑜の死と馬超の復讐
+KO 주유의 죽음과 마초의 복수
+
+[M 12 stitle]
+JP 漢中王劉備と関羽の不覚
+KO 한중왕 유비와 관우의 실책
+
+[M 14 stitle]
+JP 南蛮王孟獲と諸葛亮の南征
+KO 남만왕 맹획과 제갈량 남정
+
+[M 16 stitle]
+JP 第五次北伐と諸葛亮の死
+KO 제5차 북벌과 제갈량의 죽음
+
+[M 18 stitle]
+JP 剣閣攻防と蜀の滅亡
+KO 검각 공방과 촉의 멸망
+
+[M 20 stitle]
+JP 孫堅の中興
+KO 손견의 중흥
+
+[M 22 stitle]
+JP 白馬将軍の威
+KO 백마장군의 위세
+
+[M 24 stitle]
+JP 皇帝呂布
+KO 황제 여포
+
+[M 26 stitle]
+JP 漢の忠臣ここにあり
+KO 한의 충신 여기 있다
+
+[M 28 stitle]
+JP 華北の覇者袁紹
+KO 화북의 패자 원소
+
+[M 30 stitle]
+JP 周瑜の天下二分計
+KO 주유의 천하이분지계
+
+[M 32 stitle]
+JP 曹家分裂
+KO 조씨 일가 분열
+
+[M 34 stitle]
+JP 西蜀動乱
+KO 서촉 동란
+
+[M 36 stitle]
+JP 超・三國志
+KO 초・삼국지
+
+[M 38 stitle]
+JP 英雄集結
+KO 영웅 집결

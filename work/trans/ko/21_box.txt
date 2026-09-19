@@ -1,0 +1,15 @@
+[M 8438 box]
+JP MEMORY CARD差込口１の⏎"PlayStation 2"専用メモリーカード(8MB)を⏎チェック中です⏎"PlayStation 2"専用メモリーカード(8MB)を抜いたり⏎電源を切ったり、リセットをしないでください
+KO MEMORY CARD 삽입구 1의⏎"PlayStation 2" 전용 메모리 카드(8MB)를⏎확인하고 있습니다⏎"PlayStation 2" 전용 메모리 카드(8MB)를 빼거나⏎전원을 끄거나 리셋하지 마십시오
+
+[M 8440 box]
+JP MEMORY CARD差込口１の⏎"PlayStation 2"専用メモリーカード(8MB)を⏎ロード中です⏎"PlayStation 2"専用メモリーカード(8MB)を抜いたり⏎電源を切ったり、リセットをしないでください
+KO MEMORY CARD 삽입구 1의⏎"PlayStation 2" 전용 메모리 카드(8MB)를⏎로드하고 있습니다⏎"PlayStation 2" 전용 메모리 카드(8MB)를 빼거나⏎전원을 끄거나 리셋하지 마십시오
+
+[M 8484 box]
+JP MEMORY CARD差込口１の⏎"PlayStation 2"専用メモリーカード(8MB)には⏎データがありません
+KO MEMORY CARD 삽입구 1의⏎"PlayStation 2" 전용 메모리 카드(8MB)에는⏎데이터가 없습니다
+
+[M 8488 bar]
+JP %sを続けますか？
+KO %s를 계속하시겠습니까?

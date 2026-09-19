@@ -1,0 +1,2122 @@
+# 고유명사 (make_names.py 로 생성). 한자 독음, 성씨·지명 첫 글자 두음법칙.
+# 지명: 이름 교체 + 읽기(루비) 비움 / 인물: 성·이름·자 교체, 읽기는 정렬용으로 유지
+
+# --- 주·지역·거점
+[M 136 name]
+JP 幽州
+KO 유주
+
+[M 137 name]
+JP {ESC:k}ゆうしゅう
+KO {ESC:k}
+
+[M 138 name]
+JP 冀州
+KO 기주
+
+[M 139 name]
+JP {ESC:k}きしゅう
+KO {ESC:k}
+
+[M 140 name]
+JP {U:F064}州
+KO! 병주
+
+[M 141 name]
+JP {ESC:k}へいしゅう
+KO {ESC:k}
+
+[M 142 name]
+JP 青州
+KO 청주
+
+[M 143 name]
+JP {ESC:k}せいしゅう
+KO {ESC:k}
+
+[M 144 name]
+JP {U:F04B}州
+KO! 연주
+
+[M 145 name]
+JP {ESC:k}えんしゅう
+KO {ESC:k}
+
+[M 146 name]
+JP 徐州
+KO 서주
+
+[M 147 name]
+JP {ESC:k}じょしゅう
+KO {ESC:k}
+
+[M 148 name]
+JP 豫州
+KO 예주
+
+[M 149 name]
+JP {ESC:k}よしゅう
+KO {ESC:k}
+
+[M 150 name]
+JP 司隷
+KO 사례
+
+[M 151 name]
+JP {ESC:k}しれい
+KO {ESC:k}
+
+[M 152 name]
+JP 雍州
+KO 옹주
+
+[M 153 name]
+JP {ESC:k}ようしゅう
+KO {ESC:k}
+
+[M 154 name]
+JP 涼州
+KO 양주
+
+[M 155 name]
+JP {ESC:k}りょうしゅう
+KO {ESC:k}
+
+[M 156 name]
+JP 揚州
+KO 양주
+
+[M 157 name]
+JP {ESC:k}ようしゅう
+KO {ESC:k}
+
+[M 158 name]
+JP 荊州
+KO 형주
+
+[M 159 name]
+JP {ESC:k}けいしゅう
+KO {ESC:k}
+
+[M 160 name]
+JP 益州
+KO 익주
+
+[M 161 name]
+JP {ESC:k}えきしゅう
+KO {ESC:k}
+
+[M 162 name]
+JP 交州
+KO 교주
+
+[M 163 name]
+JP {ESC:k}こうしゅう
+KO {ESC:k}
+
+[M 164 name]
+JP 異民
+KO 이민
+
+[M 165 name]
+JP {ESC:k}いみん
+KO {ESC:k}
+
+[M 166 name]
+JP 帯方
+KO 대방
+
+[M 167 name]
+JP {ESC:k}たいほう
+KO {ESC:k}
+
+[M 168 name]
+JP 楽浪
+KO 낙랑
+
+[M 169 name]
+JP {ESC:k}らくろう
+KO {ESC:k}
+
+[M 170 name]
+JP 丸都
+KO 환도
+
+[M 171 name]
+JP {ESC:k}がんと
+KO {ESC:k}
+
+[M 172 name]
+JP 昌黎
+KO 창려
+
+[M 173 name]
+JP {ESC:k}しょうれい
+KO {ESC:k}
+
+[M 174 name]
+JP 安平
+KO 안평
+
+[M 175 name]
+JP {ESC:k}あんぺい
+KO {ESC:k}
+
+[M 176 name]
+JP 柳城
+KO 유성
+
+[M 177 name]
+JP {ESC:k}りゅうじょう
+KO {ESC:k}
+
+[M 178 name]
+JP 易京
+KO 역경
+
+[M 179 name]
+JP {ESC:k}えききょう
+KO {ESC:k}
+
+[M 180 name]
+JP 漁陽
+KO 어양
+
+[M 181 name]
+JP {ESC:k}ぎょよう
+KO {ESC:k}
+
+[M 182 name]
+JP 代県
+KO 대현
+
+[M 183 name]
+JP {ESC:k}だいけん
+KO {ESC:k}
+
+[M 184 name]
+JP {U:F09F}県
+KO! 탁현
+
+[M 185 name]
+JP {ESC:k}たくけん
+KO {ESC:k}
+
+[M 186 name]
+JP 河間
+KO 하간
+
+[M 187 name]
+JP {ESC:k}かかん
+KO {ESC:k}
+
+[M 188 name]
+JP 楽陵
+KO 낙릉
+
+[M 189 name]
+JP {ESC:k}らくりょう
+KO {ESC:k}
+
+[M 190 name]
+JP 界橋
+KO 계교
+
+[M 191 name]
+JP {ESC:k}かいきょう
+KO {ESC:k}
+
+[M 192 name]
+JP 清河
+KO 청하
+
+[M 193 name]
+JP {ESC:k}せいが
+KO {ESC:k}
+
+[M 194 name]
+JP 安徳
+KO 안덕
+
+[M 195 name]
+JP {ESC:k}あんとく
+KO {ESC:k}
+
+[M 196 name]
+JP 頓丘
+KO 돈구
+
+[M 197 name]
+JP {ESC:k}とんきゅう
+KO {ESC:k}
+
+[M 198 name]
+JP 高唐
+KO 고당
+
+[M 199 name]
+JP {ESC:k}こうとう
+KO {ESC:k}
+
+[M 200 name]
+JP 鉅鹿
+KO 거록
+
+[M 201 name]
+JP {ESC:k}きょろく
+KO {ESC:k}
+
+[M 202 name]
+JP 常山
+KO 상산
+
+[M 203 name]
+JP {ESC:k}じょうざん
+KO {ESC:k}
+
+[M 204 name]
+JP 白馬
+KO 백마
+
+[M 205 name]
+JP {ESC:k}はくば
+KO {ESC:k}
+
+[M 206 name]
+JP 雁門
+KO 안문
+
+[M 207 name]
+JP {ESC:k}がんもん
+KO {ESC:k}
+
+[M 208 name]
+JP 太原
+KO 태원
+
+[M 209 name]
+JP {ESC:k}たいげん
+KO {ESC:k}
+
+[M 210 name]
+JP 襄垣
+KO 양원
+
+[M 211 name]
+JP {ESC:k}じょうえん
+KO {ESC:k}
+
+[M 212 name]
+JP 西河
+KO 서하
+
+[M 213 name]
+JP {ESC:k}せいが
+KO {ESC:k}
+
+[M 214 name]
+JP 壷関
+KO 호관
+
+[M 215 name]
+JP {ESC:k}こかん
+KO {ESC:k}
+
+[M 216 name]
+JP 長子
+KO 장자
+
+[M 217 name]
+JP {ESC:k}ちょうし
+KO {ESC:k}
+
+[M 218 name]
+JP 東來
+KO 동래
+
+[M 219 name]
+JP {ESC:k}とうらい
+KO {ESC:k}
+
+[M 220 name]
+JP 即墨
+KO 즉묵
+
+[M 221 name]
+JP {ESC:k}そくぼく
+KO {ESC:k}
+
+[M 222 name]
+JP 臨{U:F062}
+KO! 임치
+
+[M 223 name]
+JP {ESC:k}りんし
+KO {ESC:k}
+
+[M 224 name]
+JP 東武
+KO 동무
+
+[M 225 name]
+JP {ESC:k}とうぶ
+KO {ESC:k}
+
+[M 226 name]
+JP 東阿
+KO 동아
+
+[M 227 name]
+JP {ESC:k}とうあ
+KO {ESC:k}
+
+[M 228 name]
+JP 東平
+KO 동평
+
+[M 229 name]
+JP {ESC:k}とうへい
+KO {ESC:k}
+
+[M 230 name]
+JP 泰山
+KO 태산
+
+[M 231 name]
+JP {ESC:k}たいざん
+KO {ESC:k}
+
+[M 232 name]
+JP 定陶
+KO 정도
+
+[M 233 name]
+JP {ESC:k}ていとう
+KO {ESC:k}
+
+[M 234 name]
+JP 任城
+KO 임성
+
+[M 235 name]
+JP {ESC:k}じんじょう
+KO {ESC:k}
+
+[M 236 name]
+JP 広陵
+KO 광릉
+
+[M 237 name]
+JP {ESC:k}こうりょう
+KO {ESC:k}
+
+[M 238 name]
+JP 琅邪
+KO 낭야
+
+[M 239 name]
+JP {ESC:k}ろうや
+KO {ESC:k}
+
+[M 240 name]
+JP 淮陰
+KO 회음
+
+[M 241 name]
+JP {ESC:k}わいいん
+KO {ESC:k}
+
+[M 242 name]
+JP 彭城
+KO 팽성
+
+[M 243 name]
+JP {ESC:k}ほうじょう
+KO {ESC:k}
+
+[M 244 name]
+JP 中牟
+KO 중모
+
+[M 245 name]
+JP {ESC:k}ちゅうぼう
+KO {ESC:k}
+
+[M 246 name]
+JP 潁川
+KO 영천
+
+[M 247 name]
+JP {ESC:k}えいせん
+KO {ESC:k}
+
+[M 248 name]
+JP {U:F058}県
+KO! 초현
+
+[M 249 name]
+JP {ESC:k}しょうけん
+KO {ESC:k}
+
+[M 250 name]
+JP 宋県
+KO 송현
+
+[M 251 name]
+JP {ESC:k}そうけん
+KO {ESC:k}
+
+[M 252 name]
+JP 陽安
+KO 양안
+
+[M 253 name]
+JP {ESC:k}ようあん
+KO {ESC:k}
+
+[M 254 name]
+JP 朝歌
+KO 조가
+
+[M 255 name]
+JP {ESC:k}ちょうか
+KO {ESC:k}
+
+[M 256 name]
+JP 河内
+KO 하내
+
+[M 257 name]
+JP {ESC:k}かだい
+KO {ESC:k}
+
+[M 258 name]
+JP 平陽
+KO 평양
+
+[M 259 name]
+JP {ESC:k}へいよう
+KO {ESC:k}
+
+[M 260 name]
+JP 河東
+KO 하동
+
+[M 261 name]
+JP {ESC:k}かとう
+KO {ESC:k}
+
+[M 262 name]
+JP 官渡
+KO 관도
+
+[M 263 name]
+JP {ESC:k}かんと
+KO {ESC:k}
+
+[M 264 name]
+JP 虎牢関
+KO 호뢰관
+
+[M 265 name]
+JP {ESC:k}ころうかん
+KO {ESC:k}
+
+[M 266 name]
+JP 孟津
+KO 맹진
+
+[M 267 name]
+JP {ESC:k}もうしん
+KO {ESC:k}
+
+[M 268 name]
+JP 弘農
+KO 홍농
+
+[M 269 name]
+JP {ESC:k}こうのう
+KO {ESC:k}
+
+[M 270 name]
+JP 河南
+KO 하남
+
+[M 271 name]
+JP {ESC:k}かなん
+KO {ESC:k}
+
+[M 272 name]
+JP 臨晋
+KO 임진
+
+[M 273 name]
+JP {ESC:k}りんしん
+KO {ESC:k}
+
+[M 274 name]
+JP 潼関
+KO 동관
+
+[M 275 name]
+JP {ESC:k}どうかん
+KO {ESC:k}
+
+[M 276 name]
+JP 商県
+KO 상현
+
+[M 277 name]
+JP {ESC:k}しょうけん
+KO {ESC:k}
+
+[M 278 name]
+JP 武関
+KO 무관
+
+[M 279 name]
+JP {ESC:k}ぶかん
+KO {ESC:k}
+
+[M 280 name]
+JP {U:F05F}
+KO! 미
+
+[M 281 name]
+JP {ESC:k}び
+KO {ESC:k}
+
+[M 282 name]
+JP 子午谷
+KO 자오곡
+
+[M 283 name]
+JP {ESC:k}しごこく
+KO {ESC:k}
+
+[M 284 name]
+JP 陳倉
+KO 진창
+
+[M 285 name]
+JP {ESC:k}ちんそう
+KO {ESC:k}
+
+[M 286 name]
+JP 五丈原
+KO 오장원
+
+[M 287 name]
+JP {ESC:k}ごじょうげん
+KO {ESC:k}
+
+[M 288 name]
+JP 街亭
+KO 가정
+
+[M 289 name]
+JP {ESC:k}がいてい
+KO {ESC:k}
+
+[M 290 name]
+JP 段谷
+KO 단곡
+
+[M 291 name]
+JP {ESC:k}だんこく
+KO {ESC:k}
+
+[M 292 name]
+JP 隴西
+KO 농서
+
+[M 293 name]
+JP {ESC:k}ろうせい
+KO {ESC:k}
+
+[M 294 name]
+JP 狄道
+KO 적도
+
+[M 295 name]
+JP {ESC:k}てきどう
+KO {ESC:k}
+
+[M 296 name]
+JP 金城
+KO 금성
+
+[M 297 name]
+JP {ESC:k}きんじょう
+KO {ESC:k}
+
+[M 298 name]
+JP 令居
+KO 영거
+
+[M 299 name]
+JP {ESC:k}れいこ
+KO {ESC:k}
+
+[M 300 name]
+JP 張掖
+KO 장액
+
+[M 301 name]
+JP {ESC:k}ちょうえき
+KO {ESC:k}
+
+[M 302 name]
+JP 酒泉
+KO 주천
+
+[M 303 name]
+JP {ESC:k}しゅせん
+KO {ESC:k}
+
+[M 304 name]
+JP 合肥
+KO 합비
+
+[M 305 name]
+JP {ESC:k}がっぴ
+KO {ESC:k}
+
+[M 306 name]
+JP 烏江
+KO 오강
+
+[M 307 name]
+JP {ESC:k}うこう
+KO {ESC:k}
+
+[M 308 name]
+JP 石亭
+KO 석정
+
+[M 309 name]
+JP {ESC:k}せきてい
+KO {ESC:k}
+
+[M 310 name]
+JP 尋陽
+KO 심양
+
+[M 311 name]
+JP {ESC:k}じんよう
+KO {ESC:k}
+
+[M 312 name]
+JP 阜陵
+KO 부릉
+
+[M 313 name]
+JP {ESC:k}ふりょう
+KO {ESC:k}
+
+[M 314 name]
+JP 丹陽
+KO 단양
+
+[M 315 name]
+JP {ESC:k}たんよう
+KO {ESC:k}
+
+[M 316 name]
+JP 曲阿
+KO 곡아
+
+[M 317 name]
+JP {ESC:k}きょくあ
+KO {ESC:k}
+
+[M 318 name]
+JP 章安
+KO 장안
+
+[M 319 name]
+JP {ESC:k}しょうあん
+KO {ESC:k}
+
+[M 320 name]
+JP 始新
+KO 시신
+
+[M 321 name]
+JP {ESC:k}ししん
+KO {ESC:k}
+
+[M 322 name]
+JP 建安
+KO 건안
+
+[M 323 name]
+JP {ESC:k}けんあん
+KO {ESC:k}
+
+[M 324 name]
+JP 九江
+KO 구강
+
+[M 325 name]
+JP {ESC:k}きゅうこう
+KO {ESC:k}
+
+[M 326 name]
+JP 武昌
+KO 무창
+
+[M 327 name]
+JP {ESC:k}ぶしょう
+KO {ESC:k}
+
+[M 328 name]
+JP {U:F070}陽
+KO! 파양
+
+[M 329 name]
+JP {ESC:k}はよう
+KO {ESC:k}
+
+[M 330 name]
+JP 南昌
+KO 남창
+
+[M 331 name]
+JP {ESC:k}なんしょう
+KO {ESC:k}
+
+[M 332 name]
+JP 高昌
+KO 고창
+
+[M 333 name]
+JP {ESC:k}こうしょう
+KO {ESC:k}
+
+[M 334 name]
+JP 陸口
+KO 육구
+
+[M 335 name]
+JP {ESC:k}りくこう
+KO {ESC:k}
+
+[M 336 name]
+JP 穣県
+KO 양현
+
+[M 337 name]
+JP {ESC:k}じょうけん
+KO {ESC:k}
+
+[M 338 name]
+JP 博望
+KO 박망
+
+[M 339 name]
+JP {ESC:k}はくぼう
+KO {ESC:k}
+
+[M 340 name]
+JP 湖陽
+KO 호양
+
+[M 341 name]
+JP {ESC:k}こよう
+KO {ESC:k}
+
+[M 342 name]
+JP 隆中
+KO 융중
+
+[M 343 name]
+JP {ESC:k}りゅうちゅう
+KO {ESC:k}
+
+[M 344 name]
+JP 漢津
+KO 한진
+
+[M 345 name]
+JP {ESC:k}かんしん
+KO {ESC:k}
+
+[M 346 name]
+JP 新城
+KO 신성
+
+[M 347 name]
+JP {ESC:k}しんじょう
+KO {ESC:k}
+
+[M 348 name]
+JP 麦城
+KO 맥성
+
+[M 349 name]
+JP {ESC:k}ばくじょう
+KO {ESC:k}
+
+[M 350 name]
+JP 華容
+KO 화용
+
+[M 351 name]
+JP {ESC:k}かよう
+KO {ESC:k}
+
+[M 352 name]
+JP 烏林
+KO 오림
+
+[M 353 name]
+JP {ESC:k}うりん
+KO {ESC:k}
+
+[M 354 name]
+JP 宜都
+KO 의도
+
+[M 355 name]
+JP {ESC:k}ぎと
+KO {ESC:k}
+
+[M 356 name]
+JP 夷陵
+KO 이릉
+
+[M 357 name]
+JP {ESC:k}いりょう
+KO {ESC:k}
+
+[M 358 name]
+JP 江津
+KO 강진
+
+[M 359 name]
+JP {ESC:k}こうしん
+KO {ESC:k}
+
+[M 360 name]
+JP 公安
+KO 공안
+
+[M 361 name]
+JP {ESC:k}こうあん
+KO {ESC:k}
+
+[M 362 name]
+JP 安陸
+KO 안륙
+
+[M 363 name]
+JP {ESC:k}あんりく
+KO {ESC:k}
+
+[M 364 name]
+JP 夏口
+KO 하구
+
+[M 365 name]
+JP {ESC:k}かこう
+KO {ESC:k}
+
+[M 366 name]
+JP 泪羅
+KO 멱라
+
+[M 367 name]
+JP {ESC:k}べきら
+KO {ESC:k}
+
+[M 368 name]
+JP 衡陽
+KO 형양
+
+[M 369 name]
+JP {ESC:k}こうよう
+KO {ESC:k}
+
+[M 370 name]
+JP 魏興
+KO 위흥
+
+[M 371 name]
+JP {ESC:k}ぎこう
+KO {ESC:k}
+
+[M 372 name]
+JP 上庸
+KO 상용
+
+[M 373 name]
+JP {ESC:k}じょうよう
+KO {ESC:k}
+
+[M 374 name]
+JP 安陽
+KO 안양
+
+[M 375 name]
+JP {ESC:k}あんよう
+KO {ESC:k}
+
+[M 376 name]
+JP 巫県
+KO 무현
+
+[M 377 name]
+JP {ESC:k}ふけん
+KO {ESC:k}
+
+[M 378 name]
+JP 陽平関
+KO 양평관
+
+[M 379 name]
+JP {ESC:k}ようへいかん
+KO {ESC:k}
+
+[M 380 name]
+JP 定軍山
+KO 정군산
+
+[M 381 name]
+JP {ESC:k}ていぐんざん
+KO {ESC:k}
+
+[M 382 name]
+JP 武都
+KO 무도
+
+[M 383 name]
+JP {ESC:k}ぶと
+KO {ESC:k}
+
+[M 384 name]
+JP 沓中
+KO 답중
+
+[M 385 name]
+JP {ESC:k}とうちゅう
+KO {ESC:k}
+
+[M 386 name]
+JP 陰平
+KO 음평
+
+[M 387 name]
+JP {ESC:k}いんぺい
+KO {ESC:k}
+
+[M 388 name]
+JP 白水
+KO 백수
+
+[M 389 name]
+JP {ESC:k}はくすい
+KO {ESC:k}
+
+[M 390 name]
+JP 葭萌関
+KO 가맹관
+
+[M 391 name]
+JP {ESC:k}かぼうかん
+KO {ESC:k}
+
+[M 392 name]
+JP 剣閣
+KO 검각
+
+[M 393 name]
+JP {ESC:k}けんかく
+KO {ESC:k}
+
+[M 394 name]
+JP 漢寿
+KO 한수
+
+[M 395 name]
+JP {ESC:k}かんじゅ
+KO {ESC:k}
+
+[M 396 name]
+JP 巴西
+KO 파서
+
+[M 397 name]
+JP {ESC:k}はせい
+KO {ESC:k}
+
+[M 398 name]
+JP 漢昌
+KO 한창
+
+[M 399 name]
+JP {ESC:k}かんしょう
+KO {ESC:k}
+
+[M 400 name]
+JP 江油
+KO 강유
+
+[M 401 name]
+JP {ESC:k}こうゆ
+KO {ESC:k}
+
+[M 402 name]
+JP 広柔
+KO 광유
+
+[M 403 name]
+JP {ESC:k}こうじゅう
+KO {ESC:k}
+
+[M 404 name]
+JP 綿竹
+KO 면죽
+
+[M 405 name]
+JP {ESC:k}めんちく
+KO {ESC:k}
+
+[M 406 name]
+JP 都安
+KO 도안
+
+[M 407 name]
+JP {ESC:k}とあん
+KO {ESC:k}
+
+[M 408 name]
+JP {U:F06A}水関
+KO! 부수관
+
+[M 409 name]
+JP {ESC:k}ふすいかん
+KO {ESC:k}
+
+[M 410 name]
+JP 峨眉
+KO 아미
+
+[M 411 name]
+JP {ESC:k}がび
+KO {ESC:k}
+
+[M 412 name]
+JP 広漢
+KO 광한
+
+[M 413 name]
+JP {ESC:k}こうかん
+KO {ESC:k}
+
+[M 414 name]
+JP 臨江
+KO 임강
+
+[M 415 name]
+JP {ESC:k}りんこう
+KO {ESC:k}
+
+[M 416 name]
+JP 江陽
+KO 강양
+
+[M 417 name]
+JP {ESC:k}こうよう
+KO {ESC:k}
+
+[M 418 name]
+JP 朱提
+KO 주제
+
+[M 419 name]
+JP {ESC:k}しゅてい
+KO {ESC:k}
+
+[M 420 name]
+JP 且蘭
+KO 저란
+
+[M 421 name]
+JP {ESC:k}しょらん
+KO {ESC:k}
+
+[M 422 name]
+JP 宛温
+KO 완온
+
+[M 423 name]
+JP {ESC:k}えんおん
+KO {ESC:k}
+
+[M 424 name]
+JP 台登
+KO 태등
+
+[M 425 name]
+JP {ESC:k}だいと
+KO {ESC:k}
+
+[M 426 name]
+JP 永昌
+KO 영창
+
+[M 427 name]
+JP {ESC:k}えいしょう
+KO {ESC:k}
+
+[M 428 name]
+JP 南海
+KO 남해
+
+[M 429 name]
+JP {ESC:k}なんかい
+KO {ESC:k}
+
+[M 430 name]
+JP 蒼悟
+KO 창오
+
+[M 431 name]
+JP {ESC:k}そうご
+KO {ESC:k}
+
+[M 432 name]
+JP 合浦
+KO 합포
+
+[M 433 name]
+JP {ESC:k}がっぽ
+KO {ESC:k}
+
+[M 434 name]
+JP 末蘆
+KO 말로
+
+[M 435 name]
+JP {ESC:k}まつろ
+KO {ESC:k}
+
+[M 436 name]
+JP 鳥鼠山
+KO 조서산
+
+[M 437 name]
+JP {ESC:k}ちょうそざん
+KO {ESC:k}
+
+[M 438 name]
+JP 南城
+KO 남성
+
+[M 439 name]
+JP {ESC:k}なんじょう
+KO {ESC:k}
+
+# --- 도시
+[M 723 name]
+JP 襄平
+KO 양평
+
+[M 724 name]
+JP {ESC:k}じょうへい
+KO {ESC:k}
+
+[M 725 name]
+JP 北平
+KO 북평
+
+[M 726 name]
+JP {ESC:k}ほくへい
+KO {ESC:k}
+
+[M 727 name]
+JP 薊
+KO 계
+
+[M 728 name]
+JP {ESC:k}けい
+KO {ESC:k}
+
+[M 729 name]
+JP 南皮
+KO 남피
+
+[M 730 name]
+JP {ESC:k}なんぴ
+KO {ESC:k}
+
+[M 731 name]
+JP 平原
+KO 평원
+
+[M 732 name]
+JP {ESC:k}へいげん
+KO {ESC:k}
+
+[M 733 name]
+JP {U:F06D}
+KO! 업
+
+[M 734 name]
+JP {ESC:k}ぎょう
+KO {ESC:k}
+
+[M 735 name]
+JP 晋陽
+KO 진양
+
+[M 736 name]
+JP {ESC:k}しんよう
+KO {ESC:k}
+
+[M 737 name]
+JP 上党
+KO 상당
+
+[M 738 name]
+JP {ESC:k}じょうとう
+KO {ESC:k}
+
+[M 739 name]
+JP 北海
+KO 북해
+
+[M 740 name]
+JP {ESC:k}ほっかい
+KO {ESC:k}
+
+[M 741 name]
+JP 濮陽
+KO 복양
+
+[M 742 name]
+JP {ESC:k}ぼくよう
+KO {ESC:k}
+
+[M 743 name]
+JP 陳留
+KO 진류
+
+[M 744 name]
+JP {ESC:k}ちんりゅう
+KO {ESC:k}
+
+[M 745 name]
+JP 下{U:F060}
+KO! 하비
+
+[M 746 name]
+JP {ESC:k}かひ
+KO {ESC:k}
+
+[M 747 name]
+JP 小沛
+KO 소패
+
+[M 748 name]
+JP {ESC:k}しょうはい
+KO {ESC:k}
+
+[M 749 name]
+JP 許昌
+KO 허창
+
+[M 750 name]
+JP {ESC:k}きょしょう
+KO {ESC:k}
+
+[M 751 name]
+JP 汝南
+KO 여남
+
+[M 752 name]
+JP {ESC:k}じょなん
+KO {ESC:k}
+
+[M 753 name]
+JP 洛陽
+KO 낙양
+
+[M 754 name]
+JP {ESC:k}らくよう
+KO {ESC:k}
+
+[M 755 name]
+JP 長安
+KO 장안
+
+[M 756 name]
+JP {ESC:k}ちょうあん
+KO {ESC:k}
+
+[M 757 name]
+JP 安定
+KO 안정
+
+[M 758 name]
+JP {ESC:k}あんてい
+KO {ESC:k}
+
+[M 759 name]
+JP 天水
+KO 천수
+
+[M 760 name]
+JP {ESC:k}てんすい
+KO {ESC:k}
+
+[M 761 name]
+JP 西平
+KO 서평
+
+[M 762 name]
+JP {ESC:k}せいへい
+KO {ESC:k}
+
+[M 763 name]
+JP 武威
+KO 무위
+
+[M 764 name]
+JP {ESC:k}ぶい
+KO {ESC:k}
+
+[M 765 name]
+JP 寿春
+KO 수춘
+
+[M 766 name]
+JP {ESC:k}じゅしゅん
+KO {ESC:k}
+
+[M 767 name]
+JP 廬江
+KO 여강
+
+[M 768 name]
+JP {ESC:k}ろこう
+KO {ESC:k}
+
+[M 769 name]
+JP 秣陵
+KO 말릉
+
+[M 770 name]
+JP {ESC:k}まつりょう
+KO {ESC:k}
+
+[M 771 name]
+JP 呉
+KO 오
+
+[M 772 name]
+JP {ESC:k}ご
+KO {ESC:k}
+
+[M 773 name]
+JP 会稽
+KO 회계
+
+[M 774 name]
+JP {ESC:k}かいけい
+KO {ESC:k}
+
+[M 775 name]
+JP 柴桑
+KO 시상
+
+[M 776 name]
+JP {ESC:k}さいそう
+KO {ESC:k}
+
+[M 777 name]
+JP 宛
+KO 완
+
+[M 778 name]
+JP {ESC:k}えん
+KO {ESC:k}
+
+[M 779 name]
+JP 新野
+KO 신야
+
+[M 780 name]
+JP {ESC:k}しんや
+KO {ESC:k}
+
+[M 781 name]
+JP 襄陽
+KO 양양
+
+[M 782 name]
+JP {ESC:k}じょうよう
+KO {ESC:k}
+
+[M 783 name]
+JP 江陵
+KO 강릉
+
+[M 784 name]
+JP {ESC:k}こうりょう
+KO {ESC:k}
+
+[M 785 name]
+JP 江夏
+KO 강하
+
+[M 786 name]
+JP {ESC:k}こうか
+KO {ESC:k}
+
+[M 787 name]
+JP 長沙
+KO 장사
+
+[M 788 name]
+JP {ESC:k}ちょうさ
+KO {ESC:k}
+
+[M 789 name]
+JP 武陵
+KO 무릉
+
+[M 790 name]
+JP {ESC:k}ぶりょう
+KO {ESC:k}
+
+[M 791 name]
+JP 桂陽
+KO 계양
+
+[M 792 name]
+JP {ESC:k}けいよう
+KO {ESC:k}
+
+[M 793 name]
+JP 零陵
+KO 영릉
+
+[M 794 name]
+JP {ESC:k}れいりょう
+KO {ESC:k}
+
+[M 795 name]
+JP 西城
+KO 서성
+
+[M 796 name]
+JP {ESC:k}せいじょう
+KO {ESC:k}
+
+[M 797 name]
+JP 永安
+KO 영안
+
+[M 798 name]
+JP {ESC:k}えいあん
+KO {ESC:k}
+
+[M 799 name]
+JP 漢中
+KO 한중
+
+[M 800 name]
+JP {ESC:k}かんちゅう
+KO {ESC:k}
+
+[M 801 name]
+JP 梓潼
+KO 자동
+
+[M 802 name]
+JP {ESC:k}しどう
+KO {ESC:k}
+
+[M 803 name]
+JP 成都
+KO 성도
+
+[M 804 name]
+JP {ESC:k}せいと
+KO {ESC:k}
+
+[M 805 name]
+JP 江州
+KO 강주
+
+[M 806 name]
+JP {ESC:k}こうしゅう
+KO {ESC:k}
+
+[M 807 name]
+JP 建寧
+KO 건녕
+
+[M 808 name]
+JP {ESC:k}けんねい
+KO {ESC:k}
+
+[M 809 name]
+JP 雲南
+KO 운남
+
+[M 810 name]
+JP {ESC:k}うんなん
+KO {ESC:k}
+
+[M 811 name]
+JP 交趾
+KO 교지
+
+[M 812 name]
+JP {ESC:k}こうし
+KO {ESC:k}
+
+[M 813 name]
+JP 倭
+KO 왜
+
+[M 814 name]
+JP {ESC:k}わ
+KO {ESC:k}
+
+[M 815 name]
+JP 烏丸
+KO 오환
+
+[M 816 name]
+JP {ESC:k}うがん
+KO {ESC:k}
+
+[M 817 name]
+JP 羌
+KO 강
+
+[M 818 name]
+JP {ESC:k}きょう
+KO {ESC:k}
+
+[M 819 name]
+JP 山越
+KO 산월
+
+[M 820 name]
+JP {ESC:k}さんえつ
+KO {ESC:k}
+
+[M 821 name]
+JP 南蛮
+KO 남만
+
+[M 822 name]
+JP {ESC:k}なんばん
+KO {ESC:k}
+
+# --- 관작 읽기(루비) 비움
+[M 1786 name]
+JP {ESC:k}こうてい
+KO {ESC:k}
+
+[M 1788 name]
+JP {ESC:k}おう
+KO {ESC:k}
+
+[M 1790 name]
+JP {ESC:k}こう
+KO {ESC:k}
+
+[M 1792 name]
+JP {ESC:k}だいしば
+KO {ESC:k}
+
+[M 1794 name]
+JP {ESC:k}だいしょうぐん
+KO {ESC:k}
+
+[M 1796 name]
+JP {ESC:k}ちゅうろうじょう
+KO {ESC:k}
+
+[M 1798 name]
+JP {ESC:k}しゅうしし
+KO {ESC:k}
+
+[M 1800 name]
+JP {ESC:k}しゅうぼく
+KO {ESC:k}
+
+# --- 인물
+[M 1811 name]
+JP 阿会
+KO 아회
+
+[M 1812 name]
+JP 喃
+KO 남
+
+[M 1815 name]
+JP 韋
+KO 위
+
+[M 1816 name]
+JP 昭
+KO 소
+
+[M 1817 name]
+JP 弘嗣
+KO 홍사
+
+[M 1819 name]
+JP 伊
+KO 이
+
+[M 1820 name]
+JP 籍
+KO 적
+
+[M 1821 name]
+JP 機伯
+KO 기백
+
+[M 1823 name]
+JP 尹
+KO 윤
+
+[M 1824 name]
+JP 賞
+KO 상
+
+[M 1827 name]
+JP 尹
+KO 윤
+
+[M 1828 name]
+JP 大目
+KO 대목
+
+[M 1831 name]
+JP 尹
+KO 윤
+
+[M 1832 name]
+JP 黙
+KO 묵
+
+[M 1833 name]
+JP 思潜
+KO 사잠
+
+[M 1867 name]
+JP 袁
+KO 원
+
+[M 1868 name]
+JP 術
+KO 술
+
+[M 1869 name]
+JP 公路
+KO 공로
+
+[M 1875 name]
+JP 袁
+KO 원
+
+[M 1876 name]
+JP 紹
+KO 소
+
+[M 1877 name]
+JP 本初
+KO 본초
+
+[M 2007 name]
+JP 王
+KO 왕
+
+[M 2008 name]
+JP 朗
+KO 랑
+
+[M 2009 name]
+JP 景興
+KO 경흥
+
+[M 2159 name]
+JP 何
+KO 하
+
+[M 2160 name]
+JP 進
+KO 진
+
+[M 2161 name]
+JP 遂高
+KO 수고
+
+[M 2271 name]
+JP 韓
+KO 한
+
+[M 2272 name]
+JP 馥
+KO 복
+
+[M 2273 name]
+JP 文節
+KO 문절
+
+[M 2415 name]
+JP 厳
+KO 엄
+
+[M 2416 name]
+JP 白虎
+KO 백호
+
+[M 2495 name]
+JP 公孫
+KO 공손
+
+[M 2496 name]
+JP {U:F040}
+KO! 찬
+
+[M 2497 name]
+JP 伯珪
+KO 백규
+
+[M 2503 name]
+JP 公孫
+KO 공손
+
+[M 2504 name]
+JP 度
+KO 도
+
+[M 2505 name]
+JP 升済
+KO 승제
+
+[M 2511 name]
+JP 孔
+KO 공
+
+[M 2512 name]
+JP {U:F05C}
+KO! 주
+
+[M 2513 name]
+JP 公緒
+KO 공서
+
+[M 2535 name]
+JP 孔
+KO 공
+
+[M 2536 name]
+JP 融
+KO 융
+
+[M 2537 name]
+JP 文挙
+KO 문거
+
+[M 3115 name]
+JP 曹
+KO 조
+
+[M 3116 name]
+JP 操
+KO 조
+
+[M 3117 name]
+JP 孟徳
+KO 맹덕
+
+[M 3199 name]
+JP 孫
+KO 손
+
+[M 3200 name]
+JP 堅
+KO 견
+
+[M 3201 name]
+JP 文台
+KO 문대
+
+[M 3215 name]
+JP 孫
+KO 손
+
+[M 3216 name]
+JP 策
+KO 책
+
+[M 3217 name]
+JP 伯符
+KO 백부
+
+[M 3331 name]
+JP 張
+KO 장
+
+[M 3332 name]
+JP 燕
+KO 연
+
+[M 3351 name]
+JP 張
+KO 장
+
+[M 3352 name]
+JP 角
+KO 각
+
+[M 3491 name]
+JP 張
+KO 장
+
+[M 3492 name]
+JP 楊
+KO 양
+
+[M 3493 name]
+JP 雅叔
+KO 아숙
+
+[M 3511 name]
+JP 張
+KO 장
+
+[M 3512 name]
+JP 魯
+KO 로
+
+[M 3513 name]
+JP 公祺
+KO 공기
+
+[M 3695 name]
+JP 陶
+KO 도
+
+[M 3696 name]
+JP 謙
+KO 겸
+
+[M 3697 name]
+JP 恭祖
+KO 공조
+
+[M 3735 name]
+JP 董
+KO 동
+
+[M 3736 name]
+JP 卓
+KO 탁
+
+[M 3737 name]
+JP 仲穎
+KO 중영
+
+[M 3827 name]
+JP 馬
+KO 마
+
+[M 3828 name]
+JP 騰
+KO 등
+
+[M 3829 name]
+JP 寿成
+KO 수성
+
+[M 4063 name]
+JP 楊
+KO 양
+
+[M 4064 name]
+JP 弘
+KO 홍
+
+[M 4143 name]
+JP 李
+KO 이
+
+[M 4144 name]
+JP {U:F046}
+KO! 각
+
+[M 4145 name]
+JP 稚然
+KO 치연
+
+[M 4215 name]
+JP 劉
+KO 유
+
+[M 4216 name]
+JP 焉
+KO 언
+
+[M 4217 name]
+JP 君郎
+KO 군랑
+
+[M 4227 name]
+JP 劉
+KO 유
+
+[M 4228 name]
+JP 虞
+KO 우
+
+[M 4229 name]
+JP 伯安
+KO 백안
+
+[M 4251 name]
+JP 劉
+KO 유
+
+[M 4252 name]
+JP 璋
+KO 장
+
+[M 4253 name]
+JP 季玉
+KO 계옥
+
+[M 4283 name]
+JP 劉
+KO 유
+
+[M 4284 name]
+JP 岱
+KO 대
+
+[M 4285 name]
+JP 公山
+KO 공산
+
+[M 4295 name]
+JP 劉
+KO 유
+
+[M 4296 name]
+JP 備
+KO 비
+
+[M 4297 name]
+JP 玄徳
+KO 현덕
+
+[M 4299 name]
+JP 劉
+KO 유
+
+[M 4300 name]
+JP 表
+KO 표
+
+[M 4301 name]
+JP 景升
+KO 경승
+
+[M 4319 name]
+JP 劉
+KO 유
+
+[M 4320 name]
+JP {U:F04D}
+KO! 요
+
+[M 4321 name]
+JP 正礼
+KO 정례
+
+[M 4379 name]
+JP 呂
+KO 여
+
+[M 4380 name]
+JP 布
+KO 포
+
+[M 4381 name]
+JP 奉先
+KO 봉선
+
+[M 4411 name]
+JP 倭
+KO 왜
+
+[M 4412 name]
+JP 女王
+KO 여왕
+
+[M 4431 name]
+JP 烏丸
+KO 오환
+
+[M 4432 name]
+JP 大王
+KO 대왕
+
+[M 4435 name]
+JP 烏丸
+KO 오환
+
+[M 4436 name]
+JP 大人
+KO 대인
+
+[M 4439 name]
+JP 烏丸
+KO 오환
+
+[M 4440 name]
+JP 率衆
+KO 솔중
+
+[M 4443 name]
+JP 烏丸
+KO 오환
+
+[M 4444 name]
+JP 都督
+KO 도독
+
+[M 4451 name]
+JP 羌
+KO 강
+
+[M 4452 name]
+JP 大王
+KO 대왕
+
+[M 4471 name]
+JP 山越
+KO 산월
+
+[M 4472 name]
+JP 大王
+KO 대왕
+
+[M 4491 name]
+JP 南蛮
+KO 남만
+
+[M 4492 name]
+JP 大王
+KO 대왕

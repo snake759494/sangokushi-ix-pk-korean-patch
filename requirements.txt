@@ -1,0 +1,7 @@
+numpy
+scipy
+Pillow
+opencv-python
+pycdlib
+av
+imageio-ffmpeg
