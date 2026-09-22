@@ -1,6 +1,6 @@
 {
- "version": "v1.0.2",
- "date": "2026-09-20",
+ "version": "v1.0.3",
+ "date": "2026-09-22",
  "game": "Sangokushi IX with Power-Up Kit (Japan) / SLPM-65673 / PS2",
  "xdelta_options": "xdelta3 3.0.11, -e -9 -S none -A (no secondary compression, no application header)",
  "source_iso": {
@@ -11,43 +11,43 @@
  },
  "assets": [
   {
-   "file": "Sangokushi_IX_PK_KO_v1.0.2.xdelta",
+   "file": "Sangokushi_IX_PK_KO_v1.0.3.xdelta",
    "movies": true,
    "patch": {
-    "size": 711821937,
-    "md5": "843e86fb9f70b4b394688003e0662705",
-    "sha1": "00c1d61c1ff7c289f6a56ae482536048baed8122",
-    "sha256": "262059dba86de723e627d26c593e99771824c7235f3b189cb36cc013087f9ab6"
+    "size": 711823015,
+    "md5": "5c08f252c019bf8bfd259b686a8ee61e",
+    "sha1": "443ceffcf079097bd6bfecb9ac9f823496fe2f45",
+    "sha256": "bf21258bd47693dcba5bd3824aa66800cf37dee069b8d5af5d0222100c2f35e6"
    },
    "output_iso": {
     "size": 2496921600,
-    "md5": "8b616c8d8f5823fb6c75fdc05317232a",
-    "sha1": "e2a4322a6cb8321f36bfffae485e8c05ef959d0f",
-    "sha256": "ef2f4ee03e9919d6f48ab88c980fdd402ea5ab0bbc8123203fdf093c75119425"
+    "md5": "5f0bee5349bb586c0c3a9c12d1d862b5",
+    "sha1": "98eb0589e8059dee9a49e79c531758aed590d691",
+    "sha256": "7de43076b79eef391d2cbc9b94eb0adb730bdbc980c4bd0e3a6d7b5d77c124fb"
    }
   },
   {
-   "file": "Sangokushi_IX_PK_KO_v1.0.2_nomovie.xdelta",
+   "file": "Sangokushi_IX_PK_KO_v1.0.3_nomovie.xdelta",
    "movies": false,
    "patch": {
-    "size": 1720274,
-    "md5": "120f69a4db168f8d2183e96225dc472b",
-    "sha1": "03b923a85bce70a5207d18531a9f5bb7ea9b5de9",
-    "sha256": "2ec0b8aaa243f2f95676ddad0ecc6c2f622118e3f72386a0e939c13bf9d2d16a"
+    "size": 1721352,
+    "md5": "c52b6b3396ead3398681fdb2a5fa9580",
+    "sha1": "099de3df35f347222420ee41b1e5f59f2dffbde0",
+    "sha256": "07be047ec19d30b899ed61cf92fdaa5c179201349f76bcec2a089252350fb7b6"
    },
    "output_iso": {
     "size": 2496921600,
-    "md5": "273ac48d6f0a23262a44deffe70e78d2",
-    "sha1": "66a0133a646ee27d93659cac89af0c7bb04b7b37",
-    "sha256": "b82228bf43c013a83ba5ae555e60e81b4d762d4769297b822ea745376a0f8fc9"
+    "md5": "4ff4ce2c938b077218475bed150a8831",
+    "sha1": "c3f864b6a81511603061a5c824ee7b5beb8aef79",
+    "sha256": "551cf1172f299c322e4083c9812e0a6c8d5f257f3ba6e9181c37bfde0cf1aac9"
    }
   }
  ],
  "patched_elf": {
   "size": 3751728,
-  "md5": "453825a9a08aa099fb7f92895c5163e6",
-  "sha1": "7f8ef00258e8a5d099930a13aa51695718d280db",
-  "sha256": "a72a1d2095d58a999a9209332da18bf719753d6e531966b416ee72155d6f2688"
+  "md5": "f361c2d8ba3dbaeb410739c89d2b8143",
+  "sha1": "14f92193e381fc830f793d7624824d041027d4e0",
+  "sha256": "ed89c0b9a026d810a0d940caa2fb4679865affa9e9560ed9dee2ebbf7eecfdfc"
  },
  "original_elf_sha256": "174319fa1a31411bc986d5020f9bbe37d40cd4f4f5a3e33f7769b7c20bdfbbfa"
 }

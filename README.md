@@ -1,6 +1,6 @@
 # 삼국지 IX with 파워업키트 PS2 한글패치
 
-PS2 일본판 **三國志IX with パワーアップキット (SLPM-65673)**용 비공식 한국어 패치입니다. 게임 안 텍스트 전부(메뉴·도움말·용어사전·시나리오 개요·튜토리얼·인물 대사·이벤트·무장 열전), 실행파일의 문자열, 그림 글자(타이틀 캡션·페이즈 배너·트라이얼 스테이지 제목·능력 그래프)를 한국어로 바꾸고, 동영상 34편의 일본어 자막 아래에 한국어 자막을 넣었습니다. 현재 배포판은 **v1.0.2 (2026-09-20)**입니다.
+PS2 일본판 **三國志IX with パワーアップキット (SLPM-65673)**용 비공식 한국어 패치입니다. 게임 안 텍스트 전부(메뉴·도움말·용어사전·시나리오 개요·튜토리얼·인물 대사·이벤트·무장 열전), 실행파일의 문자열, 그림 글자(타이틀 캡션·페이즈 배너·트라이얼 스테이지 제목·능력 그래프)를 한국어로 바꾸고, 동영상 34편의 일본어 자막 아래에 한국어 자막을 넣었습니다. 현재 배포판은 **v1.0.3 (2026-09-22)**입니다.
 
 [패치 다운로드](https://github.com/snake759494/sangokushi-ix-pk-korean-patch/releases/latest) · [기술 설명](docs/TECHNICAL.md) · [재빌드](docs/BUILD.md) · [변경 기록](CHANGELOG.md) · [권리 안내](RIGHTS.md)
 
@@ -8,8 +8,8 @@ PS2 일본판 **三國志IX with パワーアップキット (SLPM-65673)**용 �
 
 | 파일 | 내용 | 크기 |
 | --- | --- | --- |
-| `Sangokushi_IX_PK_KO_v1.0.2.xdelta` | 전체판 (동영상 한국어 자막 포함) — 권장 | 712 MB |
-| `Sangokushi_IX_PK_KO_v1.0.2_nomovie.xdelta` | 동영상을 바꾸지 않는 가벼운 판 (자막 외 나머지는 같음) | 1.7 MB |
+| `Sangokushi_IX_PK_KO_v1.0.3.xdelta` | 전체판 (동영상 한국어 자막 포함) — 권장 | 712 MB |
+| `Sangokushi_IX_PK_KO_v1.0.3_nomovie.xdelta` | 동영상을 바꾸지 않는 가벼운 판 (자막 외 나머지는 같음) | 1.7 MB |
 
 저장소에는 제작 소스·번역·검증 자료를 공개합니다. 원본 및 완성 ISO, 게임에서 추출한 파일, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다. GitHub 가 자동 생성하는 Source code ZIP/TAR 는 저장소 소스의 압축본이며 게임 파일이 아닙니다.
 
@@ -33,8 +33,8 @@ PS2 일본판 **三國志IX with パワーアップキット (SLPM-65673)**용 �
 
 | 배포 파일 | xdelta 크기 · SHA-256 | 적용 결과 ISO SHA-256 |
 | --- | --- | --- |
-| 전체판 | 711,821,937 바이트 · `262059dba86de723e627d26c593e99771824c7235f3b189cb36cc013087f9ab6` | `ef2f4ee03e9919d6f48ab88c980fdd402ea5ab0bbc8123203fdf093c75119425` |
-| 동영상 제외판 | 1,720,274 바이트 · `2ec0b8aaa243f2f95676ddad0ecc6c2f622118e3f72386a0e939c13bf9d2d16a` | `b82228bf43c013a83ba5ae555e60e81b4d762d4769297b822ea745376a0f8fc9` |
+| 전체판 | 711,823,015 바이트 · `bf21258bd47693dcba5bd3824aa66800cf37dee069b8d5af5d0222100c2f35e6` | `7de43076b79eef391d2cbc9b94eb0adb730bdbc980c4bd0e3a6d7b5d77c124fb` |
+| 동영상 제외판 | 1,721,352 바이트 · `07be047ec19d30b899ed61cf92fdaa5c179201349f76bcec2a089252350fb7b6` | `551cf1172f299c322e4083c9812e0a6c8d5f257f3ba6e9181c37bfde0cf1aac9` |
 
 적용 결과 ISO 크기는 두 판 모두 원본과 같은 2,496,921,600 바이트입니다. 이 값들은 이번 배포에 사용한 로컬 파일을 직접 해시한 값입니다(`release_manifest.json`). 원본 게임 파일은 사용자가 별도로 준비해야 합니다. 이전 한글판이나 다른 패치가 적용된 ISO 에 덧씌우지 말고 항상 위 원본에 적용하세요.
 
@@ -56,7 +56,7 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\Sangokushi IX with Power-Up Kit (
 1. 릴리즈에서 xdelta 파일 하나를 받습니다(전체판 권장).
 2. xdelta3 패치를 지원하는 도구의 **Apply Patch** 기능을 엽니다.
 3. **Patch** 에 xdelta 파일, **Source File** 에 해시가 일치하는 원본 ISO 를 선택합니다.
-4. **Output File** 에 원본과 다른 새 파일명, 예를 들어 `Sangokushi IX with Power-Up Kit (Korean v1.0.2).iso` 를 지정합니다.
+4. **Output File** 에 원본과 다른 새 파일명, 예를 들어 `Sangokushi IX with Power-Up Kit (Korean v1.0.3).iso` 를 지정합니다.
 5. 적용 완료 후 결과 ISO 의 SHA-256 을 위 표와 비교합니다.
 
 호환성을 위해 xdelta 는 2차 압축과 파일 경로 헤더 없이 만들었습니다. UI 명칭은 도구마다 조금 다릅니다. 외부 도구 실행 파일은 이 릴리즈에 포함하지 않습니다. xdelta 자체의 소스와 배포 안내는 [공식 프로젝트](https://github.com/jmacd/xdelta)를 참고하세요.
@@ -64,14 +64,14 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\Sangokushi IX with Power-Up Kit (
 ### 명령줄 사용
 
 ```powershell
-.\xdelta3.exe -d -s '.\Sangokushi IX with Power-Up Kit (Japan).iso' '.\Sangokushi_IX_PK_KO_v1.0.2.xdelta' '.\Sangokushi IX with Power-Up Kit (Korean v1.0.2).iso'
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\Sangokushi IX with Power-Up Kit (Korean v1.0.2).iso'
+.\xdelta3.exe -d -s '.\Sangokushi IX with Power-Up Kit (Japan).iso' '.\Sangokushi_IX_PK_KO_v1.0.3.xdelta' '.\Sangokushi IX with Power-Up Kit (Korean v1.0.3).iso'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\Sangokushi IX with Power-Up Kit (Korean v1.0.3).iso'
 ```
 
 원본·패치·결과의 해시를 자동 검사하는 도구도 있습니다. Python 3 과 xdelta3 실행 파일을 준비한 뒤 저장소 루트에서 다음처럼 사용합니다(두 배포 파일 모두 지원).
 
 ```powershell
-python tools/apply_release.py --xdelta '.\xdelta3.exe' --source '.\Sangokushi IX with Power-Up Kit (Japan).iso' --patch '.\Sangokushi_IX_PK_KO_v1.0.2.xdelta' --output '.\Sangokushi IX with Power-Up Kit (Korean v1.0.2).iso'
+python tools/apply_release.py --xdelta '.\xdelta3.exe' --source '.\Sangokushi IX with Power-Up Kit (Japan).iso' --patch '.\Sangokushi_IX_PK_KO_v1.0.3.xdelta' --output '.\Sangokushi IX with Power-Up Kit (Korean v1.0.3).iso'
 ```
 
 이 도구는 기존 출력 파일을 덮어쓰지 않습니다. 패치 적용 실패나 결과 해시 불일치 시 성공으로 처리하지 않습니다.
@@ -99,7 +99,8 @@ python tools/apply_release.py --xdelta '.\xdelta3.exe' --source '.\Sangokushi IX
 
 - 원본 ISO → xdelta → 결과 ISO 의 SHA-256 이 배포용 완성 ISO 와 일치(두 판 모두).
 - 저장소의 소스와 번역 데이터만으로 원본 ISO 에서 다시 빌드해 글꼴·텍스트·실행파일·그림 파일 41개가 배포판과 바이트 단위로 같음을 확인. 동영상 단계는 같은 스크립트로 만들었습니다(`validation/`).
-- 빌드 검사: 번역 단위 21,727/21,727, 오류 0(폭·줄 수·태그·변수 뒤 조사·완성형 밖 글자). 텍스트 파일에 남은 일본어 0.
+- 빌드 검사: 번역 단위 21,727개 모두 오류 0(폭·줄 수·태그·변수 뒤 조사·완성형 밖 글자). 이 가운데 무작위 무장의 성·이름 읽기 표 579항목은 게임이 이름을 만들 때 길이를 검사하므로 일부러 원본 가나로 둡니다(화면에 나오지 않음, 비우면 게임이 멈춤 — v1.0.3 에서 수정).
+- 프리징: 제보 조건(190년 조조, 데이터편집으로 복양 수치 최소 → 복양 공격)을 에뮬레이터에서 재현해 이전 판은 멈추고 v1.0.3 은 병사 발탁 무장 생성을 지나 계속 진행됨을 확인([validation/runtime_test.md](validation/runtime_test.md)).
 - 압축 그림 블록은 게임 해제 함수의 모형으로 되풀어 풀린 크기·끝 코드를 확인. 블록 위치는 실행파일의 위치표와 같게 유지.
 - 동영상은 원본 대비 화질·깜박임을 측정([validation/movie_quality.md](validation/movie_quality.md)). 음성 패킷과 파일 크기는 원본과 같음.
 - PCSX2 2.2.0 에서 타이틀·메인 메뉴, 시나리오 선택·개요, 세력 선택·설정, 오프닝 동영상 자막, 전략/진행 페이즈 배너, 커맨드 메뉴와 순찰·수송·출진·등용 창(능력 그래프, 도착예정), 대사창, 도움말, 무장 열전, 챌린지 시나리오, 트라이얼 스토리 스테이지 제목과 클리어 조건을 화면으로 확인했습니다([validation/runtime_test.md](validation/runtime_test.md)).

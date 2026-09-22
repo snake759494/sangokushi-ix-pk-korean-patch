@@ -32,6 +32,11 @@ MSG_SIZE_SITES = [(0x1535CC, 0x1535E8), (0x21104C, 0x211054), (0x20FDD4, 0x20FDE
 RTDN_SIZE_SITES = [(0x153604, 0x153618), (0x211048, 0x211050), (0x20FDD0, 0x20FDDC)]
 ORIG_ALLOC = {"M": 0xD6800, "R": 0x14000}
 FREE_START, FREE_END = 1121523, 1125000
+
+# 원본 그대로 둘 M_MSG 항목: 무작위 무장(병사 발탁 등)의 성 읽기(0x3938~0x399F)·이름 읽기(0x3B7B~0x3D55).
+# 무장 생성 루프(ELF 0x3B4EA0)는 읽기를 "%s%s"로 이어 붙여(0x213EC0) 길이가 0 이면 이름을 다시 뽑는다.
+# v1.0~v1.0.2 에서 이 읽기를 비워 두어 새 무장이 생길 때 무한 루프로 게임이 멈췄다 (2026-09-22 재현·확인).
+KEEP_ORIGINAL_MSG = set(range(0x3938, 0x39A0)) | set(range(0x3B7B, 0x3D56))
 DATA_START = 0x300000
 
 
@@ -217,14 +222,19 @@ def main():
             warns_all.append("%s %s [%s] %s" % (where[uid], uid, u.kind, w))
         if not errs:
             good[uid] = ko
+    # 원본 그대로 둘 단위 (번역을 넣지 않음)
+    kept = [uid for uid in good if units[uid].src == "M" and units[uid].entry in KEEP_ORIGINAL_MSG]
+    for uid in kept:
+        del good[uid]
     # 남은 일본어 단위
     left = Counter()
     left_chars = Counter()
     for uid, u in units.items():
-        if uid not in good:
+        if uid not in good and not (u.src == "M" and u.entry in KEEP_ORIGINAL_MSG):
             left[u.kind] += 1
             left_chars[u.kind] += len(u.jp)
-    report.append("번역 단위 %d / 전체 %d  (오류 %d, 경고 %d)" % (len(good), len(units), len(errs_all), len(warns_all)))
+    report.append("번역 단위 %d / 전체 %d  (원본 유지 %d, 오류 %d, 경고 %d)" % (
+        len(good), len(units), len(kept), len(errs_all), len(warns_all)))
     report.append("미번역: " + ", ".join("%s %d개(%d자)" % (k, left[k], left_chars[k]) for k in sorted(left)))
     with open(REPORT, "w", encoding="utf-8") as f:
         f.write("\n".join(report) + "\n\n[오류]\n" + "\n".join(errs_all) + "\n\n[경고]\n" + "\n".join(warns_all) + "\n")
